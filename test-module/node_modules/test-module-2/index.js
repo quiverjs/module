@@ -1,7 +1,7 @@
 
-var moduleLib = require('quiver-module')
+var moduleLib = require('quiver-module')(require)
 
-var quiverModule = moduleLib.exportFromManifest(require, './package.json')
+var quiverModule = moduleLib.exportFromManifest('./package.json')
 
 module.exports = {
   quiverModule: quiverModule
