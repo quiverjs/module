@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-module",
+  "desription": "Module system for exporting quiver components while managing dependencies",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/module",
+  "repository": {
+    "url": "git@github.com:quiverjs/module.git"
+  },
+  "dependencies": {
+    "async": "0.2.x",
+    "quiver-error": "0.0.x",
+    "quiver-component": "0.1.x",
+    "quiver-safe-callback": "0.0.x"
+  },
+  "devDependencies": {
+    "mocha": "1.8.x",
+    "should": "1.2.x"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/module/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/module",
+  "scripts": {
+    "test": "make test"
+  }
+}
