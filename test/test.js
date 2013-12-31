@@ -4,7 +4,7 @@
 var async = require('async')
 var should = require('should')
 var testModule = require('../test-module')
-var moduleLib = require('../lib/module')(require)
+var moduleLib = require('../lib/export')
 
 var expectedComponents = [
   'test component 0',
@@ -30,6 +30,7 @@ describe('integrated module test', function() {
   it('should load all modules', function(callback) {
     moduleLib.loadComponentsFromQuiverModule(testModule.quiverModule, 
       function(err, quiverComponents) {
+        if(err) console.log(err)
         if(err) return callback(err)
 
         var componentTable = componentListToTable(quiverComponents)

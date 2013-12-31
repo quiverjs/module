@@ -1,5 +1,7 @@
 
-var moduleLib = require('quiver-module')(require)
+'use strict'
+
+var moduleLib = require('quiver-module').enterContext(require)
 
 var quiverModule = moduleLib.exportFromManifest('./package.json')
 
