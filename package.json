@@ -6,7 +6,7 @@
   },
   "name": "quiver-module",
   "desription": "Module system for exporting quiver components while managing dependencies",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/quiverjs/module",
   "repository": {
     "url": "git@github.com:quiverjs/module.git"
