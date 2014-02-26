@@ -6,20 +6,20 @@
   },
   "name": "quiver-module",
   "desription": "Module system for exporting quiver components while managing dependencies",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "homepage": "https://github.com/quiverjs/module",
   "repository": {
     "url": "git@github.com:quiverjs/module.git"
   },
   "dependencies": {
-    "async": "0.2.x",
-    "quiver-copy": "0.1.x",
-    "quiver-error": "0.1.x",
-    "quiver-safe-callback": "0.1.x"
+    "async": "~0.2.10",
+    "quiver-copy": "~0.1.4",
+    "quiver-error": "~0.1.0",
+    "quiver-safe-callback": "~0.1.1"
   },
   "devDependencies": {
-    "mocha": "1.8.x",
-    "should": "1.2.x"
+    "mocha": "~1.17.1",
+    "should": "~3.1.3"
   },
   "bugs": {
     "url": "https://github.com/quiverjs/module/issues",
@@ -29,7 +29,7 @@
     "type": "MIT",
     "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
   },
-  "main": "./lib/export",
+  "main": "./lib/module",
   "scripts": {
     "test": "make test"
   }
